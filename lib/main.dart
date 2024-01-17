@@ -27,7 +27,7 @@ class SpeechToTextPage extends StatefulWidget {
   @override
   _SpeechToTextPage createState() => _SpeechToTextPage();
 }
-
+//New comment added
 class _SpeechToTextPage extends State<SpeechToTextPage> {
   final microphonePermission = Permission.microphone;
   final TextEditingController _textController = TextEditingController();
